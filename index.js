@@ -23,7 +23,7 @@ function sayHiToGrandma(string) {
   {
   return GlowerCase; 
   }
-    else if (string.toUpperCase('HELLO') === "YES INDEED")
+    else if 
   {
     return GupperCase;
   }
