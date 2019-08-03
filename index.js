@@ -19,16 +19,16 @@ function sayHiToGrandma(string) {
   var GlowerCase = "I can't hear you!" ;
   var GupperCase = "YES INDEED!" ;
   var Glov ="I love you, too.";
-  if (string.toLowerCase() === "I can't hear you!") 
+  if (string === string.toLowerCase()) 
   {
   return GlowerCase; 
   }
-    else if 
+    else if (string === "I love you, Grandma.")
   {
-    return GupperCase;
+    return Glov;
   }
-  else if ("I love you, Grandma.") {
-    return Glov
+  else if (string === string.toUpperCase()) {
+    return GupperCase
   }
 }
   
